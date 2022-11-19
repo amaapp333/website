@@ -1,4 +1,7 @@
-const toggle = document.getElementById('toggle')
-const nav = document.getElementById('nav')
+const open = document.getElementById('open')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
 
-toggle.addEventListener('click', () => nav.classList.toggle('active'))
+open.addEventListener('click', () => container.classList.add('show-nav'))
+
+close.addEventListener('click', () => container.classList.remove('show-nav'))
