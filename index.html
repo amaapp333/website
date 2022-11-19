@@ -18,39 +18,7 @@
   <body>
     <h1>Maliek News App</h1>
 
-    <script type="text/javascript">
-      APPNEXUS.ready(function () {
-        var isExpanded = false;
-        var expandingContainer = document.getElementById("Advertisements");
-
-        APPNEXUS.setExpandProperties({
-          height: 600,
-          expand: {
-            easing: 'ease-in-out',
-            duration: 2000
-          },
-          collapse: {
-            easing: 'ease-in-out',
-            duration: 1000
-          }
-        });
-
-        expandingContainer.addEventListener("mouseover", function () {
-          if (!isExpanded) { 
-            APPNEXUS.expand();
-          }
-          expandingContainer.style.height = 600;
-          isExpanded = true;
-        });
-
-        expandingContainer.addEventListener('mouseout', function() {
-          if (isExpanded) {
-            APPNEXUS.collapse();
-            expandingContainer.style.height = 248;
-          }
-        });
-      });
-  </script>
+    
 
 
 
