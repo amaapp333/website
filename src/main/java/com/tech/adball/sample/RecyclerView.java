@@ -1,4 +1,4 @@
-package tech.adball.sampleapp;
+package tech.adball.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
